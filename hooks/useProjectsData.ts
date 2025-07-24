@@ -8,7 +8,7 @@ export function useProjectsData(): ProjectsSectionProps {
         description:
           "Refatorando a plataforma SOFIA, atualmente altamente acoplada ao Blade e PHP Laravel, para um sistema com backend em Laravel (API), frontend em NextJS e mobile em React Native.",
         tags: [ "NextJS","TypeScript", "PHP Laravel", "Blade"],
-        githubUrl: "https://github.com/mikaelcaua",
+        githubUrl: "https://github.com/mikaelcaua/sofia-frontend-gilab-branch-clone",
         liveUrl: "https://sofia.telessaude.ufma.br/",
       },
       {
