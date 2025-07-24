@@ -24,7 +24,7 @@ export function useProjectsData(): ProjectsSectionProps {
           "App que estou construindo em parceira com a prefeitura de Santa Rita, com o objetivo de facilitar o agendamento de consultas médicas.",
         tags: ["React Native", "TypeScript"],
         githubUrl: "https://github.com/Conecta-Santa-Rita/conecta-santa-rita-app-mobile/tree/develop",
-        liveUrl: "https://github.com/Conecta-Santa-Rita/conecta-santa-rita-app-mobile/tree/develop",
+        liveUrl: "https://conectasantarita.com.br/login-painel",
       },
     ],
   };
