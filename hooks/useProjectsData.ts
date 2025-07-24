@@ -6,7 +6,7 @@ export function useProjectsData(): ProjectsSectionProps {
       {
         title: "Sofia",
         description:
-          "Refatorando a plataforma SOFIA, atualmente altamente acoplada ao Blade e PHP Laravel, para um sistema com backend em Laravel (API), frontend em NextJS.",
+          "Refatorando a plataforma SOFIA, atualmente altamente acoplada ao Blade e PHP Laravel, para um sistema com backend em Laravel (API), frontend em NextJS e mobile em React Native.",
         tags: [ "NextJS","TypeScript", "PHP Laravel", "Blade"],
         githubUrl: "https://github.com/mikaelcaua",
         liveUrl: "https://sofia.telessaude.ufma.br/",

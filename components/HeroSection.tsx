@@ -16,7 +16,7 @@ export interface HeroSectionProps {
 }
 
 const buttonClasses =
-  "px-6 py-3 rounded-lg text-lg transition-colors flex items-center justify-center";
+  "px-6 py-3 h-12 rounded-lg text-lg transition-colors flex items-center justify-center";
 
 const iconMap = {
   github: <Github className="mr-2 h-5 w-5" />,
@@ -52,4 +52,4 @@ export function HeroSection({ name, subtitle, description, buttons }: HeroSectio
       </div>
     </section>
   );
-} 
+}

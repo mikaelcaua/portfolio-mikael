@@ -14,7 +14,7 @@ export interface ContactSectionProps {
   }>;
 }
 
-const btnClass = "px-8 py-4 rounded-lg text-lg transition-colors flex items-center justify-center";
+const btnClass = "px-8 py-4 h-14 rounded-lg text-lg transition-colors flex items-center justify-center";
 
 const iconMap = {
   github: <Github className="mr-2 h-5 w-5" />,
@@ -44,4 +44,4 @@ export function ContactSection({ title, description, buttons }: ContactSectionPr
       </div>
     </section>
   );
-} 
+}

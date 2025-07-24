@@ -7,10 +7,12 @@ export function useContactData(): ContactSectionProps {
       "Se interessou pelo meu portfólio? Então, é só clicar nos botões abaixo e me mandar uma mensagem!",
     buttons: [
       {
-        label: "Email",
-        href: "mailto:mikaelcauasilva1profissional@gmail.com",
-        className: "bg-teal-500 hover:bg-teal-600 text-white font-bold",
+        label: "E-mail",
+        href: "https://mail.google.com/mail/?view=cm&fs=1&to=mikaelcauasilva1profissional@gmail.com",
         iconKey: "mail",
+        className: "bg-slate-800 hover:bg-slate-700 text-white font-medium",
+        target: "_blank",
+        rel: "noopener noreferrer",
       },
       {
         label: "LinkedIn",

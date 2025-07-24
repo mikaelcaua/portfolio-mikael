@@ -21,11 +21,9 @@ export default function Home() {
   const experienceData = useExperienceData();
   const heroData = useHeroData();
   const projectsData = useProjectsData();
-  const headerData = useHeaderData();
 
   return (
     <main className="min-h-screen bg-white">
-      {/* <HeaderSection {...headerData} /> Removido, agora está no layout */}
       <HeroSection {...heroData} />
       <AboutSection {...aboutData} />
       <ExperienceSection {...experienceData} />
