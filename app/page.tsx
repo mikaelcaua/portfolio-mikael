@@ -25,12 +25,12 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-white">
-      <HeaderSection {...headerData} />
+      {/* <HeaderSection {...headerData} /> Removido, agora está no layout */}
       <HeroSection {...heroData} />
       <AboutSection {...aboutData} />
       <ExperienceSection {...experienceData} />
       <ProjectsSection {...projectsData} />
-      <ContactSection {...contactData} />
+      <ContactSection {...contactData} buttons={heroData.buttons} />
     </main>
   )
 }

@@ -4,19 +4,21 @@ export function useContactData(): ContactSectionProps {
   return {
     title: "Vamos Conectar?",
     description:
-      "Estou sempre aberto a novas oportunidades, colaborações e trocas de ideias. Entre em contato e vamos construir algo incrível juntos!",
+      "Se interessou pelo meu portfólio? Então, é só clicar nos botões abaixo e me mandar uma mensagem!",
     buttons: [
       {
         label: "Email",
         href: "mailto:mikaelcauasilva1profissional@gmail.com",
         className: "bg-teal-500 hover:bg-teal-600 text-white font-bold",
+        iconKey: "mail",
       },
       {
         label: "LinkedIn",
-        href: "https://linkedin.com/in/mikael-caua",
+        href: "https://www.linkedin.com/in/mikael-cau%C3%A3-silva/",
         className: "border border-gray-600 text-gray-300 hover:bg-gray-800",
         target: "_blank",
         rel: "noopener noreferrer",
+        iconKey: "linkedin",
       },
       {
         label: "GitHub",
@@ -24,6 +26,7 @@ export function useContactData(): ContactSectionProps {
         className: "border border-gray-600 text-gray-300 hover:bg-gray-800",
         target: "_blank",
         rel: "noopener noreferrer",
+        iconKey: "github",
       },
     ],
   };

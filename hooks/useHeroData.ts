@@ -4,9 +4,9 @@ import type { HeroSectionProps } from "../components/HeroSection";
 export function useHeroData(): HeroSectionProps {
   return {
     name: "Mikael Cauã",
-    subtitle: "Desenvolvedor Full Stack | Instrutor | Estudante de Ciência da Computação",
+    subtitle: "Desenvolvedor Full Stack | Professor | Maratonista de Programação",
     description:
-      "Sou apaixonado por desenvolvimento de software e educação em tecnologia. Minha jornada é construir soluções inovadoras e compartilhar conhecimento para capacitar a próxima geração de desenvolvedores.",
+      "Desenvolvedor de software e professor de programação, com interesse em front-end e desenvolvimento mobile. Nas horas vagas, participo de competições de programação e LeetCode.",
     buttons: [
       {
         label: "GitHub",
@@ -24,7 +24,7 @@ export function useHeroData(): HeroSectionProps {
       },
       {
         label: "LinkedIn",
-        href: "https://linkedin.com/in/mikael-caua",
+        href: "https://www.linkedin.com/in/mikael-cau%C3%A3-silva/",
         iconKey: "linkedin",
         className: "bg-blue-600 hover:bg-blue-700 text-white font-medium",
         target: "_blank",

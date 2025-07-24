@@ -4,28 +4,27 @@ export function useProjectsData(): ProjectsSectionProps {
   return {
     projects: [
       {
-        title: "Sistema de Telessaúde",
+        title: "Sofia",
         description:
-          "Plataforma completa para gestão de consultas médicas remotas com foco em acessibilidade e performance, desenvolvida com React, Next.js e Spring Boot.",
-        tags: ["React", "Next.js", "Spring Boot", "PostgreSQL"],
+          "Refatorando a plataforma SOFIA, atualmente altamente acoplada ao Blade e PHP Laravel, para um sistema com backend em Laravel (API), frontend em NextJS.",
+        tags: [ "NextJS","TypeScript", "PHP Laravel", "Blade"],
         githubUrl: "https://github.com/mikaelcaua",
-        liveUrl: "#",
+        liveUrl: "https://sofia.telessaude.ufma.br/",
       },
       {
-        title: "App Mobile Flutter",
-        description:
-          "Aplicativo mobile desenvolvido em Flutter com integração a APIs REST, gerenciamento de estado com BLoC e implementação de testes unitários.",
-        tags: ["Flutter", "Dart", "BLoC", "Firebase"],
-        githubUrl: "https://github.com/mikaelcaua",
-        liveUrl: "#",
+        title: "Welcome Comp",
+        description:"Desenvolvi o app Welcome Comp para reunir conteúdos das disciplinas do curso de Ciência da Computação da Universidade Federal do Maranhão.",
+        tags: ["Flutter", "Dart", "Supabase"],
+        githubUrl: "https://github.com/mikaelcaua/welcome_comp",
+        liveUrl: "https://play.google.com/store/apps/details?id=br.mikael.welcome_comp",
       },
       {
-        title: "Plataforma de Ensino",
+        title: "Conecta Santa Rita App",
         description:
-          "Sistema web para criação e gerenciamento de cursos online, com dashboard administrativo e área do aluno, desenvolvido com React Native e Expo.",
-        tags: ["React Native", "Expo", "TypeScript", "Supabase"],
-        githubUrl: "https://github.com/mikaelcaua",
-        liveUrl: "#",
+          "App que estou construindo em parceira com a prefeitura de Santa Rita, com o objetivo de facilitar o agendamento de consultas médicas.",
+        tags: ["React Native", "TypeScript"],
+        githubUrl: "https://github.com/Conecta-Santa-Rita/conecta-santa-rita-app-mobile/tree/develop",
+        liveUrl: "https://github.com/Conecta-Santa-Rita/conecta-santa-rita-app-mobile/tree/develop",
       },
     ],
   };

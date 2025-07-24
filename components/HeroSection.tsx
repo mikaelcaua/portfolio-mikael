@@ -28,7 +28,7 @@ export function HeroSection({ name, subtitle, description, buttons }: HeroSectio
   return (
     <section
       id="inicio"
-      className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center px-4"
+      className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center px-4 pt-16 md:pt-20"
     >
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">
