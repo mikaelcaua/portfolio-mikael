@@ -24,9 +24,9 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
     <section id="projetos" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Projetos em Destaque</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Projetos</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Alguns dos projetos que desenvolvi ao longo da minha jornada, aplicando as melhores práticas e tecnologias modernas.
+            Alguns dos projetos que desenvolvi ao longo da minha jornada.
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
