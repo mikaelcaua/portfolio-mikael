@@ -23,4 +23,4 @@ export function Badge({ children, className = "", variant = "default" }: BadgePr
       variantClass = "bg-teal-500 text-white";
   }
   return <span className={`${base} ${variantClass} ${className}`}>{children}</span>;
-}
+} 
